@@ -1,0 +1,56 @@
+/* main title */
+.title {
+  text-align: center;
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+/* text below title */
+.sub {
+  font-size: 32px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+/* paragraphs */
+.paragraph {
+  font-size: 20px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* titles of article sections */
+.ptitle {
+  font-size: 32px;
+  text-decoration: underline;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* the button which opens up the navigation menu */
+.navmenubutton {
+  position: fixed;
+  height: 30px;
+  left: 0;
+  top: 0;
+}
+
+/* the navigation menu that appears when you click the button */
+.navmenu {
+  display: none;
+  bottom: 0;
+  top: 40px;
+  font-size: 16px;
+  position: fixed;
+  border: solid;
+  border-color: black;
+  background-color: white;
+  width: 200px;
+  height: 600px;
+}
+
+.hidden {
+  display: block;
+}

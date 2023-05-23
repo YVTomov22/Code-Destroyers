@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        
+        <meta charset="UTf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>The Future of Robotics</title>
+        <style>
+            hr{
+                height: 2px;
+                background-color: black;
+            }
+
+        </style>
+    </head>
+    
+    <body>
+
+        <button id="navbarbutton" class="navmenubutton" onclick="toggleMenu()"> → Navigation Bar</button>
+        <div id="navmenulist" class="navmenu">
+            <ol>
+                <li><a href="#section1">Introduction</a></li>
+                <li><a href="#section2">What exactly is "Robotics"?</a></li>
+                <li><a href="#section3">Evolution of robotics</a></li>
+                <li><a href="#section4">Etc 1</a></li>
+                <li><a href="#section5">Etc 2</a></li>
+                <li><a href="#section6">Etc 3</a></li>
+                <li><a href="#section7">Etc 4</a></li>
+                <li><a href="#section8">Etc 5</a></li>
+                <li><a href="#section9">Etc 6</a></li>
+                <li><a href="#section10">Etc 7</a></li>
+            </ol>
+        </div>
+        
+        <script>
+            window.onscroll = function() {
+            var navmenu = document.getElementById("navmenulist")
+            var button = document.getElementById("navbarbutton");
+             var scrolldistance = window.pageYOffset || document.documentElement.scrollTop;
+              button.style.bottom = scrolldistance + "px";
+              navmenu.style.bottom = (scrolldistance+30) + "px";
+            };
+        </script>
+
+        <script>
+            function toggleMenu() {
+               var menuContent = document.getElementById("navmenulist");
+                menuContent.classList.toggle("hidden");
+
+                var computedStyle = window.getComputedStyle(menuContent);
+
+                if (computedStyle.display === "none") {
+                   document.getElementById("navbarbutton").textContent = " → Navigation Bar";
+                } else {
+                    document.getElementById("navbarbutton").textContent = " ↓ Navigation Bar";
+             }
+            }  
+        </script>
+            
+        <p class="title"><strong>The Future of Robotics</strong></p>
+        <p class="sub"><b>Harmful or Helpful?</b></p>
+        <hr>
+        
+        <h1 id="section1" class="ptitle">Introduction</h1>
+            <p class="paragraph">agasjdggggggggggggggggggggggeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</p>
+        
+        <h1 id="section2" class="ptitle">What exactly is "Robotics"?</h1>
+            <p class="paragraph">agasjdggggggggggggggggggggggeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</p>
+
+        <h1 id="section3" class="ptitle">Evolution of robotics</h1>
+            <p class="paragraph">agasjdggggggggggggggggggggggeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</p>
+
+        <h1 id="section4" class="ptitle">Etc 1</h1>
+            <p class="paragraph">agasjdggggggggggggggggggggggeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</p>
+        
+        <h1 id="section5" class="ptitle">Etc 2</h1>
+            <p class="paragraph">agasjdggggggggggggggggggggggeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</p>
+        
+        <h1 id="section6" class="ptitle">Etc 3</h1>
+            <p class="paragraph">agasjdggggggggggggggggggggggeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</p>
+        
+        <h1 id="section7" class="ptitle">Etc 4</h1>
+            <p class="paragraph">agasjdggggggggggggggggggggggeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</p>
+        
+        <h1 id="section8" class="ptitle">Etc 5</h1>
+            <p class="paragraph">agasjdggggggggggggggggggggggeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</p>
+        
+        <h1 id="section9" class="ptitle">Etc 6</h1>
+            <p class="paragraph">agasjdggggggggggggggggggggggeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</p>
+        
+        <h1 id="section10" class="ptitle">Etc 7</h1>
+            <p class="paragraph">agasjdggggggggggggggggggggggeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</p>
+    </body>
+</html>
