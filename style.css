@@ -70,7 +70,9 @@ body{
   cursor: pointer;
   margin: 5px;
   position: relative 30px;
-  
+   position: sticky;
+    top: 0;
+    left: 0;
   }
   
   /* the navigation menu that appears when you click the button */
