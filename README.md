@@ -1,13 +1,14 @@
-Robotics: Past, Present, and Future# Robotics: Past, Present, and Future
+8th grade robotics project
+#Robotics: Past, Present, and Future# Robotics: Past, Present, and Future
 
 ## Introduction
 This repository explores the evolution of robotics from the past to the present and offers insights into the future of this rapidly advancing field. It covers various aspects such as historical milestones, current state-of-the-art technologies, and potential future developments in robotics.
 
-## Table of Contents
+## **Table of Contents**
 - [Authors](#authors)
 - [Programs used](#programs)
 - [Description](#description)
-- [Flaws](#flaws about website)
+- [Flaws about the website](#flaws about website)
 ## Authors of this project
 Yuan Tomov 8G - Scrum trainer, helped with code, ideas etc.
 Veselin Todorov 8V - Designer, helped with designs, css etc.
