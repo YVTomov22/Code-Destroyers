@@ -8,7 +8,7 @@ This repository explores the evolution of robotics from the past to the present 
 - [Authors](#authors)
 - [Programs used](#programs)
 - [Description](#description)
-- [Flaws about the website](#flaws about website)
+- [Flaws about the website](#flawsaboutthewebsite)
 ## Authors of this project
 Yuan Tomov 8G - Scrum trainer, helped with code, ideas etc.
 Veselin Todorov 8V - Designer, helped with designs, css etc.
