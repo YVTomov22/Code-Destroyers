@@ -1,3 +1,3 @@
-# proekt
+## Project
 Proekt sprint project
-**this is text**
+**Robotics: Past, Present, and Future**
