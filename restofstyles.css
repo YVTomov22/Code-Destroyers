@@ -1,0 +1,13 @@
+/* background */
+body{
+
+    background-color: aqua;
+  }
+  /* paragraphs */
+.paragraph {
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  width: 1000px;
+}
