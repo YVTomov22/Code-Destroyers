@@ -1,3 +1,3 @@
-## Project
-Proekt sprint project
-**Robotics: Past, Present, and Future**
+# Project
+##Proekt sprint project
+##Robotics: Past, Present, and Future
