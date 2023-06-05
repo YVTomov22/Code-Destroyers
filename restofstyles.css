@@ -1,7 +1,7 @@
 /* background */
 body{
 
-    background-color: aqua;
+    background-color: #b6e4f5;
   }
   /* paragraphs */
 .paragraph {
@@ -10,4 +10,7 @@ body{
   line-height: 1.5;
   word-wrap: break-word;
   width: 1000px;
+}
+.title{
+  font-family: 'Kanit', sans-serif;
 }
