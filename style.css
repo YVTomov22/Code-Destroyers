@@ -1,3 +1,12 @@
+.div1{
+
+  background-color: #626262;
+  margin-bottom: #626262;
+  color: #626262;
+  position: fixed;
+  left: 30%;
+  bottom: 91%;
+}
 /* background */
 body{
   height: 100%;
@@ -61,10 +70,10 @@ body{
   font-family: 'Kanit', sans-serif;
   display: inline-block;
 border-radius: 4px;
-background-color: grey;
+background-color: rgba(113, 113, 113, 0.575);
 border-style: solid;
 border-width: 7px;
-border-color: rgba(165, 165, 165, 0.575);
+border-color: rgba(113, 113, 113, 0.575);
 color: #000000;
 text-align: right;
 font-size: 15px;
@@ -84,7 +93,7 @@ position: relative 30px;
   font-family: 'Kanit', sans-serif;
   display: none;
   bottom: 0;
-  top: 50px;
+  top: 100px;
   font-size: 16px;
   position: fixed;
   border:solid;
@@ -125,14 +134,14 @@ position: relative 30px;
   opacity: 1;
   right: 0;
 }
-.home3{
-    font-family: 'Kanit', sans-serif;
-    position: absolute;
+/* home button */
+.home{
+  font-family: 'Kanit', sans-serif;
+  background-color: gray;
+  position: absolute;
     left: 28%;
-    text-align: center;
-    background-color: grey; /* Grey */
   border: none;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
@@ -142,48 +151,80 @@ position: relative 30px;
   transition-duration: 0.4s;
   cursor: pointer;
 }
-.about3{
+
+/* about button */
+.about{
   font-family: 'Kanit', sans-serif;
     position: absolute;
     text-align: center;
-    left: 48%;
-    background-color: grey; /* Grey */
+    left: 36%;
+    background-color: #575757; /* Grey */
   border: none;
-  color: white;
-  padding: 16px 32px;
+  color: rgb(0, 0, 0);
+  padding: 22px 64px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
+  margin: -5px 0px;
   cursor: pointer;
 }
-.contact3{
+/* contact button */
+.contact{
   font-family: 'Kanit', sans-serif;
     position: absolute;
     text-align: center;
-    left: 70%;
-    background-color: grey; /* Grey */
+    left: 55%;
+    background-color: #575757; /* Grey */
   border: none;
-  color: white;
-  padding: 16px 32px;
+  color: rgb(0, 0, 0);
+  padding: 22px 64px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
+  margin: -5px 0px;
   cursor: pointer;
 }
 input[type = "submit"]{
   border: 0px;
   background-color: grey; 
 }
+/* square at the bottom */
 .div2{
-  background-color: #4f4f4f;
-  margin-bottom: #4f4f4f;
-  color: #4f4f4f;
+  background-color: #626262;
+  margin-bottom: #626262;
+  color: #626262;
   display: flex;
   flex-direction: column;
+}
+.btn-group a {
+  font-family: 'Kanit', sans-serif;
+    position: absolute;
+    text-align: center;
+    left: 36%;
+    background-color: #575757; /* Grey */
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 22px 64px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group a:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group a:hover {
+  background-color: #3e8e41;
 }
