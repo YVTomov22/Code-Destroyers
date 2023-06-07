@@ -18,7 +18,6 @@ Borislav Petkov 8A - Developer, helped with code, ideas etc.
 ## Programs used
 1. HTML
 2. CSS
-3. Java script
 
 ## Description
 Our site will be used to informate people about robotics in the past, present and future.
