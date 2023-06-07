@@ -124,42 +124,57 @@ position: relative 30px;
 }
 .home3{
     font-family: 'Kanit', sans-serif;
+    position: absolute;
+    left: 28%;
+    text-align: center;
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 .about3{
-    font-family: 'Kanit', sans-serif;
+  font-family: 'Kanit', sans-serif;
+    position: absolute;
+    text-align: center;
+    left: 48%;
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 .contact3{
-    font-family: 'Kanit', sans-serif;
+  font-family: 'Kanit', sans-serif;
+    position: absolute;
+    text-align: center;
+    left: 70%;
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
-.mobilerobottitle{
-    font-family: 'Kanit', sans-serif;
-    font-size: 20px;
-  line-height: 1.5;
-  word-wrap: break-word;
-  width: 1000px;
-  margin: 0 auto;
-}
-.mobilerobots{
-    font-family: 'Kanit', sans-serif;
-  font-size: 20px;
-  line-height: 1.5;
-  word-wrap: break-word;
-  width: 1000px;
-  margin: 0 auto;
-}
-.modularobotstitle{
-    font-family: 'Kanit', sans-serif;
-  font-size: 20px;
-  line-height: 1.5;
-  word-wrap: break-word;
-  width: 1000px;
-  margin: 0 auto;
-}
-.modularobots{
-    font-family: 'Kanit', sans-serif;
-  font-size: 20px;
-  line-height: 1.5;
-  word-wrap: break-word;
-  width: 1000px;
-  margin: 0 auto;
+input[type = "submit"]{
+  border: 0px;
+  background-color: #4CAF50;
+  
 }

@@ -5,30 +5,32 @@
         
         <meta charset="UTf-8">
         <link rel="stylesheet" href="style.css">
+        <hr style="color: rgb(0, 0, 0); width: 60%;background-color: black;border-top: 1px solid black;">
         <title>The Future of Robotics</title>
         <style>
             hr{
                 height: 2px;
                 background-color: black;
             }
-
         </style>
     </head>
     
     <body>
-
-       
-          <a class="home3"  href="#">Home</a>
-            <a class="about3" href="html/about.html" target="_blank">About us</a>
-        <a class="contact3" href="html/contact.html" target="_blank">Contact</a>
+       <form action="html/home.html" class="home3">
+            <input type="submit" value="home" />
+        </form>
+        <form action="html/about.html" class="about3">
+            <input type="submit" value="about" />
+        </form>
+        <form action="html/contact.html" class="contact3">
+            <input type="submit" value="contact" />
+        </form>
         </nav>
         <button class="button" style="vertical-align:middle" onclick="toggleMenu()"> <span>Navigation Bar </span></button>
         <div id="navmenulist" class="navmenu">
             <ol>
                 <li><a href="#section1">Introduction</a></li>
                 <li><a href="#section2">What exactly is "Robotics"?</a></li>
-                <li><a href="#section3">Evolution of robotics</a></li>
-                <li><a href="#section4">Past of robotics</a></li>
             </ol>
         </div>
         
@@ -61,7 +63,7 @@
         <p class="sub"><b>Harmful or Helpful?</b></p>
         <p class="names"><b>Project made by</b></p>
         <p class="names2"><b>Yuan Tomov 8G     Veselin Todorov 8V    Borislav Petkov 8A Zlatin Lazarov 8B</b></p>
-        <hr style="color: rgb(0, 0, 0); width: 60%;">
+        <hr style="color: rgb(0, 0, 0); width: 60%;background-color: black;border-top: 1px solid black;">
         
         <h1 id="section1" class="ptitle">Introduction</h1>
             <p class="paragraph">With this project we want to show you what will happen with the robotics in the future, what happend in the past and what is happening now. </p>
@@ -69,37 +71,8 @@
         <h1 id="section2" class="ptitle">What exactly is "Robotics"?</h1>
             <p class="paragraph">Robotics is the engineering branch that deals with the conception, design, construction, operation, application, and usage of robots. Digging a little deeper, we see that robots are defined as an automatically operated machine that carries out a series of actions independently and does the work usually accomplished by a human.</p>
 
-            <h1 id="section3" class="ptitle">The Past of Robotics</h1>
+           
             <p class="paragraph">
                 
-
-               
-                In 1928, one of the first humanoid robots, Eric, was exhibited at the annual exhibition of the Model Engineers Society in London, where it delivered a speech. Invented by W. H. Richards, the robot's frame consisted of an aluminium body of armour with eleven electromagnets and one motor powered by a twelve-volt power source. The robot could move its hands and head and could be controlled through remote control or voice control. Both Eric and his "brother" George toured the world.
-
-            Westinghouse Electric Corporation built Televox in 1926; it was a cardboard cutout connected to various devices which users could turn on and off. In 1939, the humanoid robot known as Elektro was debuted at the 1939 New York World's Fair. Seven feet tall (2.1 m) and weighing 265 pounds (120.2 kg), it could walk by voice command, speak about 700 words (using a 78-rpm record player), smoke cigarettes, blow up balloons, and move its head and arms. The body consisted of a steel gear, cam and motor skeleton covered by an aluminum skin. In 1928, Japan's first robot, Gakutensoku, was designed and constructed by biologist Makoto Nishimura.
-
-            <h1 id="section4" class="ptitle">The Present of Robotics</h1>
-            <p class="paragraph">The first electronic autonomous robots with complex behaviour were created by William Grey Walter of the Burden Neurological Institute at Bristol, England in 1948 and 1949. He wanted to prove that rich connections between a small number of brain cells could give rise to very complex behaviors – essentially that the secret of how the brain worked lay in how it was wired up. His first robots, named Elmer and Elsie, were constructed between 1948 and 1949 and were often described as tortoises due to their shape and slow rate of movement. The three-wheeled tortoise robots were capable of phototaxis, by which they could find their way to a recharging station when they ran low on battery power.
-
-                Walter stressed the importance of using purely analogue electronics to simulate brain processes at a time when his contemporaries such as Alan Turing and John von Neumann were all turning towards a view of mental processes in terms of digital computation. His work inspired subsequent generations of robotics researchers such as Rodney Brooks, Hans Moravec and Mark Tilden. Modern incarnations of Walter's turtles may be found in the form of BEAM robotics. 
-                Nowadays, the development of Artificial Intelligence or other technologies such as those mentioned at the beginning of the article are so powerful that the game against Kasparov sounds obsolete. The applications that AI brings to robotics, and thus to the industrial sector, are infinitely more valuable and more profitable than winning chess games. Some of the advantages that AI brings to industrial robotics are: 
-
-            Increased accuracy 
-            Improved decision making (especially in the face of obstacles).
-            Predictive maintenance.
-            <h2 class="mobilerobottitle"><b>Mobile Robots</b></h2>
-            <p class="mobilerobots">Mobile robots have the capability to move around in their environment and are not fixed to one physical location. An example of a mobile robot that is in common use today is the automated guided vehicle or automatic guided vehicle (AGV).
-                An AGV is a mobile robot that follows markers or wires in the floor, or uses vision or lasers. AGVs are discussed later in this article.
-                Mobile robots are also found in industry, military and security environments. They also appear as consumer products, for entertainment or to perform certain tasks like vacuum cleaning. Mobile robots are the focus of a great deal of current research and almost every major university has one or more labs that focus on mobile robot research.</p> 
-            <h2 class="modularobotstitle"><b>Modular Robots</b></h2>
-            <p class="modularobots">Modular robots are a new breed of robots that are designed to increase the use of robots by modularizing their architecture. The functionality and effectiveness of a modular robot is easier to increase compared to conventional robots. These robots are composed of a single type of identical, several different identical module types, or similarly shaped modules, which vary in size.
-                                    Their architectural structure allows hyper-redundancy for modular robots, as they can be designed with more than 8 degrees of freedom (DOF). Creating the programming, inverse kinematics and dynamics for modular robots is more complex than with traditional robots. Modular robots may be composed of L-shaped modules, cubic modules, and U and H-shaped modules. ANAT technology, an early modular robotic technology patented by Robotics Design Inc., allows the creation of modular robots from U and H shaped modules that connect in a chain, and are used to form heterogeneous and homogenous modular robot systems.
-                                    These "ANAT robots" can be designed with "n" DOF as each module is a complete motorized robotic system that folds relatively to the modules connected before and after it in its chain, and therefore a single module allows one degree of freedom. The more modules that are connected to one another, the more degrees of freedom it will have.</p>
-        <h1 id="section3" class="ptitle">The Future of Robotics</h1>
-            <p class="paragraph">Artificial Intelligence (AI) increases human-robot interaction, collaboration opportunities, and quality. The industrial sector already has co-bots, which are robots that work alongside humans to perform testing and assembly.
-
-            Advances in AI help robots mimic human behavior more closely, which is why they were created in the first place. Robots that act and think more like people can integrate better into the workforce and bring a level of efficiency unmatched by human employees.</p>
-
-        
     </body>
 </html>
