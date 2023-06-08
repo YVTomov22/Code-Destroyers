@@ -11,63 +11,51 @@
 body{
   height: 100%;
   margin: 0;
-  background-color: grey;
+  background-image: linear-gradient(to bottom, rgba(47, 0, 134, 0.973), rgba(31, 3, 192, 0.808));
 }
 /* "project" line */
 .names {
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-size: 48px;
   line-height: 1.2;
+  color: rgba(255, 255, 255, 0.664);
 }
 /* our names */
 .names2{
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   justify-content: center;
   align-content: center;
   font-size: 30px;
   line-height: 1.2;
-}
-/* main title */
-.title {
-  font-family: 'Kanit', sans-serif;
-  text-align: center;
-  font-size: 48px;
-  line-height: 1.2;
- 
+  color: rgba(255, 255, 255, 0.664);
 }
 
 /* text below title */
 .sub {
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 32px;
   text-align: center;
   line-height: 1.2;
+  color: rgba(255, 255, 255, 0.664);
 }
 
 /* paragraphs */
 .paragraph {
-  font-family: 'Kanit', sans-serif;
-  font-size: 20px;
-  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
+  line-height: 1;
   word-wrap: break-word;
   width: 1000px;
-  margin: 0 auto;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.664);
 }
 
-/* titles of article sections */
-.ptitle {
-  font-family: 'Kanit', sans-serif;
-  font-size: 32px;
-  text-decoration: underline;
-  text-align: center;
-  margin: 0 auto;
-}
 
 /* the button which opens up the navigation menu */
 .button {
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   display: inline-block;
 border-radius: 4px;
 background-color: rgba(113, 113, 113, 0.575);
@@ -90,7 +78,7 @@ position: relative 30px;
 
 /* the navigation menu that appears when you click the button */
 .navmenu {
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   display: none;
   bottom: 0;
   top: 100px;
@@ -100,13 +88,13 @@ position: relative 30px;
   border-color: black;
   background-color: white;
   width: 200px;
-  height: 500px;
+  height: 300px;
   left: 0px;
-
+  opacity: 0.4;
 }
 
 .hidden {
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   display: block;
 }
 /* the transition */
@@ -136,7 +124,7 @@ position: relative 30px;
 }
 /* home button */
 .home{
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: gray;
   position: absolute;
     left: 28%;
@@ -154,7 +142,7 @@ position: relative 30px;
 
 /* about button */
 .about{
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Montserrat', sans-serif;
     position: absolute;
     text-align: center;
     left: 36%;
@@ -171,11 +159,11 @@ position: relative 30px;
 }
 /* contact button */
 .contact{
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Montserrat', sans-serif;
     position: absolute;
     text-align: center;
     left: 55%;
-    background-color: #575757; /* Grey */
+    background-color: #ffffff; /* white */
   border: none;
   color: rgb(0, 0, 0);
   padding: 22px 64px;
@@ -191,19 +179,13 @@ input[type = "submit"]{
   background-color: grey; 
 }
 /* square at the bottom */
-.div2{
-  background-color: #626262;
-  margin-bottom: #626262;
-  color: #626262;
-  display: flex;
-  flex-direction: column;
-}
+
 .btn-group a {
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Montserrat', sans-serif;
     position: absolute;
     text-align: center;
     left: 36%;
-    background-color: #575757; /* Grey */
+    background-color:linear-gradient(to bottom, rgb(119, 0, 255), rgb(146, 2, 230));
   border: none;
   color: rgb(0, 0, 0);
   padding: 22px 64px;
@@ -211,8 +193,24 @@ input[type = "submit"]{
   text-decoration: none;
   cursor: pointer; /* Pointer/hand icon */
   float: left; /* Float the buttons side by side */
+  top: 0px;
 }
 
+.btn-group2 a {
+  font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    text-align: center;
+    left: 56%;
+    background-color:linear-gradient(to bottom, rgb(119, 0, 255), rgb(146, 2, 230));
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 22px 64px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  top: 0px;
+}
 /* Clear floats (clearfix hack) */
 .btn-group:after {
   content: "";
@@ -226,5 +224,26 @@ input[type = "submit"]{
 
 /* Add a background color on hover */
 .btn-group a:hover {
-  background-color: #3e8e41;
+  background-color: linear-gradient(to bottom, rgb(89, 0, 255), rgba(36, 2, 230, 0.486));
+}
+/* Clear floats 2 (clearfix hack) */
+.btn-group2:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group2 a:not(:last-child) {
+  border-right: none; /* Prevent double borders 2 */
+}
+
+/* Add a background color on hover2  */
+.btn-group2 a:hover {
+  background-color: linear-gradient(to bottom, rgb(119, 0, 255), rgb(146, 2, 230));
+}
+/* Clear floats (clearfix hack) 2 */
+.btn-group2:after {
+  content: "";
+  clear: both;
+  display: table;
 }
