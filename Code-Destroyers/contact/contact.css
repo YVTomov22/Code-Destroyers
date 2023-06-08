@@ -1,0 +1,191 @@
+body{
+    height: 100%;
+    margin: 0;
+    background-color: rgba(31, 3, 192, 0.808);
+  }
+  .emails{
+    font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
+  line-height: 1;
+  word-wrap: break-word;
+  width: 1800px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.79);
+  position: absolute;
+  bottom: 5%;
+  }
+  .contactlist{
+    font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
+  line-height: 1;
+  position: absolute;
+  top: 3%;
+  left: 46%;
+  word-wrap: break-word;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.79);
+  }
+  /* zlatin picture */
+  .zlatin{
+    padding: 5px;
+    width: 200px;
+    position: absolute;
+    left: 15%;
+    bottom: 55%;
+    border: solid;
+    border-width: 7px;
+  }
+  /* veselin picture */
+  .veselin{
+    padding: 5px;
+    width: 200px;
+    position: absolute;
+    left: 35%;
+    bottom: 55%;
+    border: solid;
+    border-width: 7px;
+  }
+  /* yuan picture */
+  .yuan{
+    padding: 5px;
+    width: 200px;
+    position: absolute;
+    left: 55%;
+    bottom: 55%;
+    border: solid;
+    border-width: 7px;
+  }
+  /* borislav picture */
+  .borislav{
+    padding: 5px;
+    width: 200px;
+    position: absolute;
+    left: 75%;
+    bottom: 55%;
+    border: solid;
+    border-width: 7px;
+  }
+  .zlatintext{
+    font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
+  line-height: 1;
+  word-wrap: break-word;
+  position: absolute;
+  bottom: 45%;
+  left: 12%;
+  color: rgba(255, 255, 255, 0.79);
+  }
+  .veselintext{
+    font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
+  line-height: 1;
+  word-wrap: break-word;
+  position: absolute;
+  bottom: 45%;
+  left: 33%;
+  color: rgba(255, 255, 255, 0.79);
+  }
+  .yuantext{
+    font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
+  line-height: 1;
+  word-wrap: break-word;
+  position: absolute;
+  bottom: 45%;
+  left: 53%;
+  color: rgba(255, 255, 255, 0.79);
+  }
+  .borislavtext{
+    font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
+  line-height: 1;
+  word-wrap: break-word;
+  position: absolute;
+  bottom: 45%;
+  left: 73%;
+  color: rgba(255, 255, 255, 0.79);
+  }
+  /* about button */
+  .btn-group a {
+    font-family: monospace;
+      position: absolute;
+      text-align: center;
+      left: 36%;
+      background-color:linear-gradient(to bottom, rgb(119, 0, 255), rgb(146, 2, 230));
+    border: none;
+    color: rgb(255, 255, 255, 0.664);
+    padding: 22px 64px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer; /* Pointer/hand icon */
+    top: 0px;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .btn-group a:hover {opacity: 1}
+  /* home button */
+  .btn-group2 a {
+    font-family: monospace;
+      position: absolute;
+      text-align: center;
+      left: 58%;
+      background-color:linear-gradient(to bottom, rgb(119, 0, 255), rgb(146, 2, 230));
+    border: none;
+    color: rgb(255, 255, 255, 0.664);
+    padding: 22px 64px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer; /* Pointer/hand icon */
+    top: 0px;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  /* animation button 2 */
+  .btn-group2 a:hover {opacity: 1}
+  /* feedback button */
+  .btn-group3 a {
+    font-family: monospace;
+    position: absolute;
+    text-align: center;
+    left: 46%;
+    background-color:linear-gradient(to bottom, rgb(119, 0, 255), rgb(146, 2, 230));
+  border: none;
+  color: rgb(255, 255, 255, 0.664);
+  padding: 22px 64px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer; /* Pointer/hand icon */
+  top: 0px;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  }
+  .btn-group3 a:hover {opacity: 1}
+  .logo{
+    padding: 5px;
+    width: 60px;
+    position: absolute;
+    left: 20%;
+    top: 0%;
+  }
